@@ -51,7 +51,7 @@ for(let node of nodes) {
         - Object는 이터러블 오브젝트가 아니므로 for-of 사용 불가
         - prototype의 프로퍼티도 전개되지 않음
 
-        - Object를 for=of로 전개할 수 있는 방법
+        - Object를 for-of로 전개할 수 있는 방법
         Object.keys()로 프로퍼티 이름을 배열로 만들고 만든 배열을 for-of로 전개
 */
 const obj = {};
